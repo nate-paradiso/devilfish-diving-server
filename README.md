@@ -9,30 +9,24 @@ To get started with the Devilfish Diving server, follow these steps:
 Installation
 Clone this repository to your local machine:
 
-zsh
-Copy code
+
 git clone https://github.com/nate-paradiso/devilfish-diving-server.git
 Navigate into the project directory:
 
-zsh
-Copy code
+
 cd devilfish-diving-server
 Install dependencies using npm:
 
-zsh
-Copy code
 npm install
 Configuration
 Before running the server, you'll need to set up your environment variables. Create a .env file in the root directory of the project and add the following variables:
 
 PAYPAL_CLIENT_ID: Your PayPal client ID.
 PAYPAL_CLIENT_SECRET: Your PayPal client secret.
-SANDBOX_MODE: Set this to true if you want to use the PayPal sandbox environment for testing.
+
 Running the Server
 Start the server using the following command:
 
-zsh
-Copy code
 npm start
 The server will be accessible at http://localhost:8888.
 
